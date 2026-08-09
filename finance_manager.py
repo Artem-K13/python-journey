@@ -130,7 +130,7 @@ def main():
                 print(f"\nСамый большой расход:")
                 print(f"   {biggest['amount']} руб. — {biggest['category']} — {biggest['description']}")
             else:
-                print("📭 Расходов нет")
+                print("Расходов нет")
 
         elif choice == "7":
             print("До свидания!")
